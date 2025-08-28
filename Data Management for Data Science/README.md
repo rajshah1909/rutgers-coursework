@@ -1,4 +1,4 @@
-# 📊 CS 210: Data Management for Data Science
+# 📊  Data Management for Data Science - CS 210
 
 Hi! I’m Raj Shah, a senior double major in Computer Science and Data Science at Rutgers University.  
 This repository contains my coursework and projects from **CS 210: Data Management for Data Science**, where I worked with Python and Excel to acquire, clean, analyze, and visualize real-world datasets using Jupyter Notebook.
