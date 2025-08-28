@@ -1,5 +1,4 @@
-# rutgers-coursework
-# 🎓 Rutgers University – Data Science Coursework Portfolio
+# 🎓 Rutgers University
 
 Hi! I’m Raj Shah, a senior double major in Computer Science and Data Science at Rutgers University.  
 This repository showcases my **coursework and projects** across key data science and computer science courses, highlighting my hands-on experience with Python, R, SQL, Tableau, Power BI, Excel, and Linux environments. These projects demonstrate my skills in **data analysis, data visualization, statistical inference, and software development**.
