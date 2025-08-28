@@ -20,23 +20,12 @@ This repository contains my coursework and hands-on exercises from **STAT291: St
 - Visualized distributions with histograms, boxplots, scatterplots  
 - Explored random variables and simulated probability distributions  
 
-**Sample Files:**  
-- `Measure_of_center_and_variation_2.ppt`  
-- `Probability_1.pptx`  
-- `Conditional_probability_1.pptx`  
-
 ---
 
 ### 2️⃣ Sampling & Bootstrapping
 - Implemented random sampling from datasets  
 - Built bootstrap resampling methods for estimating confidence intervals  
 - Applied sampling techniques for hypothesis testing  
-
-**Sample Files / Code:**  
-- `reference_code_for_Sampling.docx`  
-- `Bootstrapping_reference_code.docx`  
-- `Coding_for_Sampling.mp4`  
-- `Coding_for_Bootstrapping.mp4`  
 
 ---
 
