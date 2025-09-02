@@ -48,7 +48,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-### 5️⃣ CS352 – Internet Technologies
+### 4️⃣ CS352 – Internet Technologies
 - Focus: Understanding Internet protocols, networking architecture, TCP/IP, HTTP, DNS, routing, and network security.  
 - Hands-on: Python-based projects executed in a **Linux environment**, implementing socket programming, TCP/UDP communication, and protocol simulations.  
 - Sample Projects:  
@@ -58,7 +58,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-###  Information Visualization
+### 5️⃣ Information Visualization
 - Focus: Designing effective visualizations and dashboards using **Tableau** and **Power BI**, applying human perception principles and storytelling.  
 - Hands-on: Creating dashboards, interactive visualizations, and data stories from real-world datasets.  
 - Sample Projects:  
