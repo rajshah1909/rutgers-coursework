@@ -17,7 +17,16 @@ This repository showcases my **coursework and projects** across key data science
 
 ## 📂 Courses & Projects
 
-### 1️⃣ STAT291 – Statistical Inference for Data Science
+### 1️⃣ Data 101 – Data Literacy
+
+- Focus: Building data literacy through weekly “data puzzles,” statistical reasoning, and critical thinking about the role of data in society.
+- Hands-on: Learned the foundations of R programming through homeworks, puzzles, and projects. Applied R to clean, analyze, and visualize datasets.
+- Sample Projects:  
+  -R-based assignments covering descriptive statistics, probability, and data visualization
+  -Weekly “data puzzles” solved and defended in presentations
+  -Final project with real-world, actionable findings
+
+### 2️⃣ STAT291 – Statistical Inference for Data Science
 - Focus: Statistical concepts, hypothesis testing, regression, sampling, bootstrapping, confidence intervals, and applied R coding.  
 - Hands-on: Coding exercises in **R** for descriptive statistics, probability simulations, CI & HT, regression analysis, ANOVA, and Chi-square tests.  
 - Sample Projects:  
@@ -27,7 +36,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-### 2️⃣ CS210 – Data Management for Data Science
+### 3️⃣ CS210 – Data Management for Data Science
 - Focus: Acquiring, cleaning, curating, and exploring datasets using Python and Excel; basic relational and NoSQL database management.  
 - Hands-on: Python coding in **Jupyter Notebook** for data cleaning, exploration, visualization, and analytics.  
 - Sample Projects:  
@@ -37,7 +46,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-### 3️⃣ CS352 – Internet Technologies
+### 5️⃣ CS352 – Internet Technologies
 - Focus: Understanding Internet protocols, networking architecture, TCP/IP, HTTP, DNS, routing, and network security.  
 - Hands-on: Python-based projects executed in a **Linux environment**, implementing socket programming, TCP/UDP communication, and protocol simulations.  
 - Sample Projects:  
@@ -47,7 +56,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-### 4️⃣ Information Visualization
+###  Information Visualization
 - Focus: Designing effective visualizations and dashboards using **Tableau** and **Power BI**, applying human perception principles and storytelling.  
 - Hands-on: Creating dashboards, interactive visualizations, and data stories from real-world datasets.  
 - Sample Projects:  
