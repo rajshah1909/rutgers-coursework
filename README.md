@@ -26,6 +26,8 @@ This repository showcases my **coursework and projects** across key data science
   -Weekly “data puzzles” solved and defended in presentations
   -Final project with real-world, actionable findings
 
+---
+
 ### 2️⃣ STAT291 – Statistical Inference for Data Science
 - Focus: Statistical concepts, hypothesis testing, regression, sampling, bootstrapping, confidence intervals, and applied R coding.  
 - Hands-on: Coding exercises in **R** for descriptive statistics, probability simulations, CI & HT, regression analysis, ANOVA, and Chi-square tests.  
