@@ -1,0 +1,3 @@
+Class +: mean = -0.0721922106722285  variance = 1.3096715040939155
+Class -: mean = 0.9401561132214228  variance = 1.9437063405522659
+Saved parameters to model_3_1.npz

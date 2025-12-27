@@ -1,0 +1,3 @@
+Test MSE: 6536.7037
+Most accurate prediction: 8458_landscape-1892.jpg (True = 1892.0, Pred = 1892.18)
+Least accurate prediction: 847_polyptych-of-st-luke-1455.jpg (True = 1455.0, Pred = 1883.77)

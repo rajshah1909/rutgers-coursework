@@ -1,0 +1,15 @@
+{
+  "prior_pos": 0.51125,
+  "prior_neg": 0.48875,
+  "mu_g_pos": 44.63325183374083,
+  "var_g_pos": 81.16133930332794,
+  "mu_g_neg": 44.14322250639386,
+  "var_g_neg": 13.396367109058678,
+  "mu_b_pos": 71.62836185819071,
+  "var_b_pos": 40.76164059277504,
+  "mu_b_neg": 86.79283887468031,
+  "var_b_neg": 21.136112401148605,
+  "col_glucose": "glucose",
+  "col_bp": "bloodpressure",
+  "col_outcome": "diabetes"
+}

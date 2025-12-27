@@ -1,0 +1,2 @@
+Image size: 60x80, train=143
+Top 20 eigenvalues:

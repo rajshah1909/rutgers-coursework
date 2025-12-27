@@ -1,0 +1,2 @@
+Best polynomial degree: 5
+Validation MSE: 6968.8274

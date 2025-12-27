@@ -1,0 +1,25 @@
+===== Starting LeNet1 (RBF) Training =====
+Epoch 1: train_err=0.0513, test_err=0.0283
+Epoch 2: train_err=0.0307, test_err=0.0258
+Epoch 3: train_err=0.0252, test_err=0.0209
+Epoch 4: train_err=0.0201, test_err=0.0154
+Epoch 5: train_err=0.0164, test_err=0.0146
+Epoch 6: train_err=0.0153, test_err=0.0143
+Epoch 7: train_err=0.0145, test_err=0.0154
+Epoch 8: train_err=0.0139, test_err=0.0147
+Epoch 9: train_err=0.0146, test_err=0.0164
+Epoch 10: train_err=0.0126, test_err=0.0164
+Epoch 11: train_err=0.0118, test_err=0.0131
+Epoch 12: train_err=0.0119, test_err=0.0154
+Epoch 13: train_err=0.0110, test_err=0.0130
+Epoch 14: train_err=0.0095, test_err=0.0134
+Epoch 15: train_err=0.0101, test_err=0.0117
+Epoch 16: train_err=0.0100, test_err=0.0130
+Epoch 17: train_err=0.0096, test_err=0.0136
+Epoch 18: train_err=0.0088, test_err=0.0110
+Epoch 19: train_err=0.0081, test_err=0.0125
+Epoch 20: train_err=0.0082, test_err=0.0141
+Saved model to C:/Users/rajsh/OneDrive/Desktop/HW4/models/LeNet1.pth
+Saved error curve to C:/Users/rajsh/OneDrive/Desktop/HW4/figures\lenet1_error_curve.png
+Saved confusion matrix to C:/Users/rajsh/OneDrive/Desktop/HW4/log\lenet1_confusion.txt
+===== Training Complete =====

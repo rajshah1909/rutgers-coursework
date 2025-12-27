@@ -1,0 +1,32 @@
+===== Starting STN-LeNet Training =====
+Epoch 1: train_loss=0.2382, train_err=0.0714, val_loss=0.1160, val_err=0.0348
+Saved new best model (val_acc=0.9652)
+Epoch 2: train_loss=0.0756, train_err=0.0234, val_loss=0.0697, val_err=0.0207
+Saved new best model (val_acc=0.9793)
+Epoch 3: train_loss=0.0532, train_err=0.0163, val_loss=0.0605, val_err=0.0183
+Saved new best model (val_acc=0.9817)
+Epoch 4: train_loss=0.0438, train_err=0.0140, val_loss=0.0634, val_err=0.0185
+Epoch 5: train_loss=0.0349, train_err=0.0113, val_loss=0.0574, val_err=0.0182
+Saved new best model (val_acc=0.9818)
+Epoch 6: train_loss=0.0304, train_err=0.0099, val_loss=0.0528, val_err=0.0152
+Saved new best model (val_acc=0.9848)
+Epoch 7: train_loss=0.0255, train_err=0.0078, val_loss=0.0514, val_err=0.0155
+Epoch 8: train_loss=0.0258, train_err=0.0081, val_loss=0.0597, val_err=0.0175
+Epoch 9: train_loss=0.0217, train_err=0.0071, val_loss=0.0629, val_err=0.0172
+Epoch 10: train_loss=0.0167, train_err=0.0057, val_loss=0.0570, val_err=0.0163
+Epoch 11: train_loss=0.0158, train_err=0.0055, val_loss=0.0542, val_err=0.0143
+Saved new best model (val_acc=0.9857)
+Epoch 12: train_loss=0.0166, train_err=0.0056, val_loss=0.0550, val_err=0.0143
+Epoch 13: train_loss=0.0140, train_err=0.0045, val_loss=0.0615, val_err=0.0177
+Epoch 14: train_loss=0.0131, train_err=0.0043, val_loss=0.0696, val_err=0.0165
+Epoch 15: train_loss=0.0141, train_err=0.0049, val_loss=0.0589, val_err=0.0155
+Epoch 16: train_loss=0.0152, train_err=0.0053, val_loss=0.0584, val_err=0.0163
+Epoch 17: train_loss=0.0123, train_err=0.0039, val_loss=0.0649, val_err=0.0155
+Epoch 18: train_loss=0.0104, train_err=0.0034, val_loss=0.0664, val_err=0.0153
+Epoch 19: train_loss=0.0112, train_err=0.0040, val_loss=0.0541, val_err=0.0123
+Saved new best model (val_acc=0.9877)
+Epoch 20: train_loss=0.0078, train_err=0.0023, val_loss=0.0539, val_err=0.0135
+Training finished. Best val_acc = 0.9877
+Saved error curve to: C:\Users\rajsh\OneDrive\Desktop\HW4\figures\lenet2_error_curve.png
+Saved confusion matrix to: C:\Users\rajsh\OneDrive\Desktop\HW4\log\lenet2_confusion.txt
+===== STN-LeNet Training Complete =====

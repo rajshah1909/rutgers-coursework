@@ -1,0 +1,10 @@
+Digit 0: predicted as 2, confidence=1.0000, index=2329, file=most_confusing_true0_pred2.png
+Digit 1: predicted as 2, confidence=1.0000, index=3073, file=most_confusing_true1_pred2.png
+Digit 2: predicted as 3, confidence=1.0000, index=5634, file=most_confusing_true2_pred3.png
+Digit 3: predicted as 2, confidence=1.0000, index=2921, file=most_confusing_true3_pred2.png
+Digit 4: predicted as 9, confidence=1.0000, index=115, file=most_confusing_true4_pred9.png
+Digit 5: predicted as 3, confidence=1.0000, index=340, file=most_confusing_true5_pred3.png
+Digit 6: predicted as 1, confidence=1.0000, index=2654, file=most_confusing_true6_pred1.png
+Digit 7: predicted as 2, confidence=1.0000, index=1226, file=most_confusing_true7_pred2.png
+Digit 8: predicted as 2, confidence=1.0000, index=582, file=most_confusing_true8_pred2.png
+Digit 9: predicted as 8, confidence=1.0000, index=2129, file=most_confusing_true9_pred8.png

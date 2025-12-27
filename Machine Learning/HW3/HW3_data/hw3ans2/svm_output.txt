@@ -1,0 +1,3 @@
+C=1 | Support Vectors=11 | Margin=0.8438 | Accuracy=99.00%
+C=10 | Support Vectors=8 | Margin=0.4452 | Accuracy=99.00%
+C=100 | Support Vectors=8 | Margin=0.6636 | Accuracy=100.00%
