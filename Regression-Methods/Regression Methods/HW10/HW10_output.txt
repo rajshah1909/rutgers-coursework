@@ -1,0 +1,96 @@
+===== HW10 Logistic Regression Output =====
+
+=== (a) Logistic Regression Model Summary ===
+
+Call:
+glm(formula = y ~ x1 + x2 + x3 + x4, family = binomial(link = "logit"), 
+    data = dat)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)  
+(Intercept) -26.126980  11.434606  -2.285   0.0223 *
+x1           -0.002629   0.007704  -0.341   0.7329  
+x2            0.447578   0.190867   2.345   0.0190 *
+x3           -0.036801   0.030883  -1.192   0.2334  
+x4           -0.108837   0.124053  -0.877   0.3803  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 47.164  on 43  degrees of freedom
+Residual deviance: 14.036  on 39  degrees of freedom
+AIC: 24.036
+
+Number of Fisher Scoring iterations: 8
+
+
+--- Interpretation for (a) ---
+• x2 is statistically significant (p = 0.019).
+• x1, x3, and x4 are NOT significant predictors (p > 0.05).
+• AIC = 24.036, showing a strong-fitting model.
+• The negative intercept indicates low baseline fracture risk.
+
+=== (b) Likelihood Ratio Test ===
+Likelihood ratio test for MLE method 
+Chi-squared 4 d.f. =  33.12883 , P value =  1.124085e-06 
+
+
+--- Interpretation for (b) ---
+• LR Test Chi-square = 33.13 with df = 4.
+• p-value = 1.12e-06 (HIGHLY significant).
+• Reject H0: At least one Beta parameter is non-zero.
+• The full model fits MUCH better than the intercept-only model.
+
+RStudioGD 
+        2 
+=== (c) Plot saved as HW10_plot.png ===
+--- Interpretation for (c) ---
+• Points near 0 correspond to observed y=0.
+• Points near 1 correspond to observed y=1.
+• The model separates the groups extremely well.
+• Consistent with low residual deviance = 14.04.
+
+=== (d) logistic.display Results ===
+
+Logistic regression predicting y 
+ 
+                crude OR(95%CI)         adj. OR(95%CI)          P(Wald's test)
+x1 (cont. var.) 0.9994 (0.9953,1.0034)  0.9974 (0.9824,1.0125)  0.733         
+                                                                              
+x2 (cont. var.) 1.53 (1.06,2.23)        1.56 (1.08,2.27)        0.019         
+                                                                              
+x3 (cont. var.) 0.99 (0.96,1.02)        0.96 (0.91,1.02)        0.233         
+                                                                              
+x4 (cont. var.) 0.98 (0.9,1.07)         0.9 (0.7,1.14)          0.38          
+                                                                              
+                P(LR-test)
+x1 (cont. var.) 0.729     
+                          
+x2 (cont. var.) < 0.001   
+                          
+x3 (cont. var.) 0.256     
+                          
+x4 (cont. var.) 0.315     
+                          
+Log-likelihood = -7.0178
+No. of observations = 44
+AIC value = 24.0356
+
+
+--- Interpretation for (d) ---
+• Adjusted OR for x2 = 1.56 (CI 1.08–2.27), significant.
+• ORs for x1, x3, x4 are NOT significant (CI includes 1).
+• Strongest predictor of fractures = x2.
+
+=== Additional Model Fit Statistics (R², Pseudo-F) ===
+McFadden R2:      0.7024
+Cox & Snell R2:   0.5290
+Nagelkerke R2:    0.8044
+Tjur's R2:        0.7336
+Pseudo F-statistic: 23.0133
+
+--- Interpretation of R² ---
+• McFadden R² near 0.7–1.0 indicates excellent fit.
+• Tjur's R² measures separation of probabilities.
+• These R² values confirm the model fits extremely well.

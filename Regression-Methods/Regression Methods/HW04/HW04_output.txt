@@ -1,0 +1,115 @@
+============================================================
+HW04 — Problem 3.8: CO2 Product vs Solvent & Hydrogen
+Name: RAJ SHAH
+============================================================
+
+(a) Fit a multiple regression model relating CO2 product (y) to total solvent (x6) and hydrogen consumption (x7).
+
+
+Call:
+lm(formula = y ~ x6 + x7, data = b5)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-23.2035  -4.3713   0.2513   4.9339  21.9682 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2.526460   3.610055   0.700   0.4908    
+x6          0.018522   0.002747   6.742 5.66e-07 ***
+x7          2.185753   0.972696   2.247   0.0341 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.924 on 24 degrees of freedom
+Multiple R-squared:  0.6996,	Adjusted R-squared:  0.6746 
+F-statistic: 27.95 on 2 and 24 DF,  p-value: 5.391e-07
+
+
+(b) Test for significance of regression. Calculate R² and Adjusted R².
+
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+x6         1 5008.9  5008.9 50.8557 2.267e-07 ***
+x7         1  497.3   497.3  5.0495    0.0341 *  
+Residuals 24 2363.8    98.5                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R²: 0.6996
+Adjusted R²: 0.6746
+
+F-statistic: 27.953 on 2 and 24 DF, p-value: 0.000001
+Conclusion: The regression is highly significant (p < 0.001). At least one regressor contributes to explaining CO2.
+
+(c) Using t-tests to determine the contribution of x6 and x7.
+
+            Estimate Std. Error   t value     Pr(>|t|)
+(Intercept) 2.526460 3.61005487 0.6998398 4.907559e-01
+x6          0.018522 0.00274725 6.7420158 5.662928e-07
+x7          2.185753 0.97269576 2.2471085 3.409779e-02
+
+Interpretation: Both x6 (solvent total) and x7 (hydrogen consumption) have p-values < 0.05.
+This indicates they significantly contribute to predicting CO2.
+
+(d) Construct 95% CIs on β6 and β7.
+
+                  2.5 %     97.5 %
+(Intercept) -4.92432697 9.97724714
+x6           0.01285196 0.02419204
+x7           0.17820756 4.19329833
+
+(e) Refit the model using only x6 as the regressor.
+
+
+Call:
+lm(formula = y ~ x6, data = b5)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-28.081  -5.829  -0.839   5.522  26.882 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 6.144181   3.483064   1.764   0.0899 .  
+x6          0.019395   0.002932   6.616 6.24e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.7 on 25 degrees of freedom
+Multiple R-squared:  0.6365,	Adjusted R-squared:  0.6219 
+F-statistic: 43.77 on 1 and 25 DF,  p-value: 6.238e-07
+
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+x6         1 5008.9  5008.9  43.766 6.238e-07 ***
+Residuals 25 2861.2   114.4                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+New R²: 0.6365
+New Adjusted R²: 0.6219
+
+Discussion: The x6-only model explains less variability than the full model.
+While still significant, it omits some explanatory power provided by x7.
+
+(f) Construct a 95% CI on β6 using reduced model. Compare with part (d).
+
+                  2.5 %      97.5 %
+(Intercept) -1.02932458 13.31768586
+x6           0.01335688  0.02543261
+
+Length of CI in full model: 0.0113
+Length of CI in reduced model: 0.0121
+Interpretation: The CI widened when x7 was removed. This shows x7 helps improve estimate precision.
+
+(g) Compare MS_Res (MSE) for full vs reduced models.
+
+MSE (full model): 98.4931
+MSE (x6-only model): 114.4470
+
+Conclusion: Removing x7 increased residual error. This confirms x7 improves model fit.

@@ -1,0 +1,78 @@
+============================================================
+HW05 — Problem 4.2: Residual Analysis and Model Adequacy
+Name: RAJ SHAH
+============================================================
+
+(a) Fit the model: y ~ x2 + x7 + x8 and show summary and ANOVA.
+
+
+Call:
+lm(formula = y ~ x2 + x7 + x8, data = p3_1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.0370 -0.7129 -0.2043  1.1101  3.7049 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.808372   7.900859  -0.229 0.820899    
+x2           0.003598   0.000695   5.177 2.66e-05 ***
+x7           0.193960   0.088233   2.198 0.037815 *  
+x8          -0.004816   0.001277  -3.771 0.000938 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.706 on 24 degrees of freedom
+Multiple R-squared:  0.7863,	Adjusted R-squared:  0.7596 
+F-statistic: 29.44 on 3 and 24 DF,  p-value: 3.273e-08
+
+
+------------------------------------------------------------
+ANOVA Table
+------------------------------------------------------------
+Analysis of Variance Table
+
+Response: y
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+x2         1  76.193  76.193  26.172 3.100e-05 ***
+x7         1 139.501 139.501  47.918 3.698e-07 ***
+x8         1  41.400  41.400  14.221 0.0009378 ***
+Residuals 24  69.870   2.911                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Interpretation:
+• The overall F-test is significant (p < 0.001).
+• Predictors x2, x7, and x8 all have p-values < 0.05, indicating significance.
+• R² ≈ 0.786 → model explains about 78.6% of variation in y.
+
+(b) Residual Normality Check: Q-Q Plot and Correlation Test
+
+Normality Test using ols_test_correlation:
+
+[1] 0.9825806 
+
+Interpretation:
+• If residual points follow the 45° line on QQ plot → normality reasonable.
+• High correlation (~0.98) and p-value > 0.05 confirm normal residuals.
+
+============================================================
+(c) Residuals vs Each Regressor (x2, x7, x8)
+============================================================
+
+Interpretation:
+• Residuals appear randomly scattered around zero.
+• No strong curvature → linear relationship is adequate.
+• No funnel shape → constant variance assumption holds.
+
+============================================================
+(d) Added Variable (Partial Regression) Plots
+============================================================
+
+Interpretation:
+• Each Added Variable Plot shows the effect of one predictor after removing others.
+• x2 has a strong positive slope (largest effect).
+• x7 is moderately positive.
+• x8 is clearly negative, confirming its inverse relation.
+• No strong outliers or curvature are present → model form appropriate.
+

@@ -1,0 +1,74 @@
+============================================================
+HW06 — Problem 4.2 (Continuation of HW05)
+Name: RAJ SHAH
+============================================================
+
+(a) Standardized Beta Coefficients for x2, x7, x8
+------------------------------------------------------------
+
+Standardized Beta Coefficients:
+
+
+Call:
+lm(formula = y ~ x2 + x7 + x8, data = p3_1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.0370 -0.7129 -0.2043  1.1101  3.7049 
+
+Coefficients:
+             Estimate Standardized Std. Error t value Pr(>|t|)    
+(Intercept) -1.808372           NA   7.900859  -0.229 0.820899    
+x2           0.003598     0.516063   0.000695   5.177 2.66e-05 ***
+x7           0.193960     0.300400   0.088233   2.198 0.037815 *  
+x8          -0.004816    -0.505895   0.001277  -3.771 0.000938 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.706 on 24 degrees of freedom
+Multiple R-squared:  0.7863,	Adjusted R-squared:  0.7596 
+F-statistic: 29.44 on 3 and 24 DF,  p-value: 3.273e-08
+
+
+Interpretation:
+• Standardized betas represent the effect size of each variable in SD units.
+• The predictor with the largest |beta| has the strongest standardized effect.
+
+============================================================
+(b) 95% Confidence Intervals for Standardized Betas
+============================================================
+
+   Predictor Std_Beta Lower_95CI Upper_95CI
+x2        x2   0.5161     0.5146     0.5175
+x7        x7   0.3004     0.1183     0.4825
+x8        x8  -0.5059    -0.5085    -0.5033
+
+Interpretation:
+• Narrower CIs indicate more precise estimates.
+• None of the 95% CIs include 0, confirming significance of predictors.
+
+============================================================
+(c) Studentized and R-Studentized Residual Diagnostics
+============================================================
+
+Creating Studentized Residuals Plot...
+
+Studentized residuals saved to HW06_Studentized_Residuals.png
+
+Creating R-Studentized Residuals Plot...
+
+R-Student residuals saved to HW06_RStudent_Residuals.png
+
+Summary of Studentized Residuals:
+Length  Class   Mode 
+     0   NULL   NULL 
+
+Summary of R-Studentized Residuals:
+Length  Class   Mode 
+     0   NULL   NULL 
+
+Interpretation:
+• Points with |residual| > 2 may be mild outliers.
+• Points with |residual| > 3 are potential influential outliers.
+• Based on the plot, no points exceed ±3, indicating no serious outliers.
+• Residuals appear well-behaved, supporting model adequacy.

@@ -1,0 +1,104 @@
+============================================================
+HW03 — Problem 3.7 (Table B.4): House Price Regression
+Name: RAJ SHAH
+============================================================
+
+(a) Fit a multiple regression model relating selling price to all nine regressors.
+
+
+Call:
+lm(formula = y ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9, 
+    data = b4)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-3.720 -1.956 -0.045  1.627  4.253 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 14.92765    5.91285   2.525   0.0243 *
+x1           1.92472    1.02990   1.869   0.0827 .
+x2           7.00053    4.30037   1.628   0.1258  
+x3           0.14918    0.49039   0.304   0.7654  
+x4           2.72281    4.35955   0.625   0.5423  
+x5           2.00668    1.37351   1.461   0.1661  
+x6          -0.41012    2.37854  -0.172   0.8656  
+x7          -1.40324    3.39554  -0.413   0.6857  
+x8          -0.03715    0.06672  -0.557   0.5865  
+x9           1.55945    1.93750   0.805   0.4343  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.949 on 14 degrees of freedom
+Multiple R-squared:  0.8531,	Adjusted R-squared:  0.7587 
+F-statistic: 9.037 on 9 and 14 DF,  p-value: 0.000185
+
+
+(b) Test for significance of regression. What conclusions can you draw?
+
+ANOVA Table:
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+x1         1 636.16  636.16 73.1525 6.238e-07 ***
+x2         1  29.18   29.18  3.3551   0.08836 .  
+x3         1   4.71    4.71  0.5416   0.47391    
+x4         1   0.03    0.03  0.0032   0.95537    
+x5         1   8.78    8.78  1.0091   0.33216    
+x6         1  13.03   13.03  1.4982   0.24115    
+x7         1   9.14    9.14  1.0515   0.32254    
+x8         1   0.64    0.64  0.0741   0.78943    
+x9         1   5.63    5.63  0.6478   0.43435    
+Residuals 14 121.75    8.70                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+F-statistic: 9.037 on 9 and 14 DF, p-value: 0.000185
+
+Conclusion: The overall regression model is statistically significant (p < 0.001),
+indicating that at least one of the predictors contributes to explaining house price.
+
+(c) Use t-tests to assess the contribution of each regressor to the model.
+Discuss your findings.
+
+               Estimate Std. Error    t value   Pr(>|t|)
+(Intercept) 14.92764759  5.9128516  2.5246106 0.02428304
+x1           1.92472156  1.0299013  1.8688408 0.08271059
+x2           7.00053420  4.3003717  1.6278905 0.12583613
+x3           0.14917793  0.4903874  0.3042043 0.76544692
+x4           2.72280790  4.3595535  0.6245612 0.54230434
+x5           2.00668402  1.3735086  1.4609912 0.16609649
+x6          -0.41012376  2.3785444 -0.1724264 0.86557016
+x7          -1.40323530  3.3955419 -0.4132581 0.68567761
+x8          -0.03714908  0.0667199 -0.5567916 0.58646103
+x9           1.55944663  1.9374959  0.8048774 0.43434718
+
+Interpretation:
+- Variables with p-values < 0.05 are significant contributors to the model.
+- Examine especially x4 (Living space), x6 (Rooms), and others based on p-values.
+
+(d) What is the contribution of lot size and living space to the model
+given that all of the other regressors are included?
+
+Partial F-test: Comparing Full Model (with x3, x4) vs Reduced Model (without x3, x4)
+Analysis of Variance Table
+
+Model 1: y ~ x1 + x2 + x5 + x6 + x7 + x8 + x9
+Model 2: y ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1     16 127.36                           
+2     14 121.75  2    5.6083 0.3225 0.7296
+
+Conclusion: Lot size and living space do not contribute significantly to the model.
+
+(e) Is multicollinearity a potential problem in this model?
+
+       x1        x2        x3        x4        x5        x6        x7        x8 
+ 7.021036  2.835413  2.454907  3.836477  1.823605 11.710101  9.722663  2.320887 
+       x9 
+ 1.942494 
+
+Interpretation:
+- VIF values > 5 or 10 indicate potential multicollinearity.
+- Assess which variables may be highly correlated.
