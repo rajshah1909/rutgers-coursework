@@ -69,6 +69,17 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
+### 6️⃣ Regression Methods – 01:960:463
+- Focus: Understanding and applying regression techniques including simple, multiple, and polynomial regression, logistic regression, and generalized linear models.
+- Hands-on: Built regression models, conducted residual and diagnostic analysis, and performed variable selection using R and SAS.
+- Sample Projects:  
+  - Simple and multiple regression analysis on real-world datasets  
+  - Residual analysis and outlier detection  
+  - Logistic regression and GLM modeling  
+  - Variable selection using stepwise regression, ridge regression, and principal component regression
+  
+---
+
 ## 🔗 Highlights
 - Integrates **data analytics, visualization, statistical inference, and software skills** across coursework.  
 - Demonstrates **hands-on experience** with real-world datasets.  
