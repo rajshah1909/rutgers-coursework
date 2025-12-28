@@ -80,6 +80,19 @@ This repository showcases my **coursework and projects** across key data science
   
 ---
 
+### 7️⃣ Machine Learning – 01:198:461
+- Focus: Understanding fundamental and advanced machine learning algorithms, feature engineering, model optimization, and neural network training.
+- Hands-on: Implemented algorithms in Python, performed regression, classification, clustering, ensemble learning, SVMs, neural networks, Bayesian networks, and reinforcement learning tasks.
+- Sample Projects:
+  - Regression, classification, and feature engineering exercises
+  - Support Vector Machine and Decision Tree modeling
+  - Neural Network training, backpropagation, and image classification
+  - Bayesian Network inference and EM algorithm
+  - Clustering and Variational Autoencoder projects
+  - Restricted Boltzmann Machine and Reinforcement Learning tasks
+
+---
+
 ## 🔗 Highlights
 - Integrates **data analytics, visualization, statistical inference, and software skills** across coursework.  
 - Demonstrates **hands-on experience** with real-world datasets.  
