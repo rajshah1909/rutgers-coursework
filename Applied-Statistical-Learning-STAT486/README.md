@@ -17,4 +17,6 @@ Python 3, NumPy, Pandas, scikit-learn, PyTorch, Hugging Face Transformers (Disti
 ## ⚠️ Files not included in HW04
 `recipes_processed.csv` (31 MB), `recipes_bow.pkl` (647 MB), `recipe-bow.pt` (12 MB) and `recipe-distilbert.pt` (253 MB) are not committed. Two exceed GitHub's 100 MB file limit, and all four are generated or course-provided artifacts. The notebook needs them to run end to end.
 
-Handouts and lecture notes are the instructor's and are not included.
+## 🚫 Not included
+- Assignment handouts, lecture slides and annotated lecture notes, and the vectors/matrices tutorial: instructor material.
+- Practice midterm and its solutions: exam material.

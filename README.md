@@ -93,7 +93,7 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
-### 8️⃣ Algorithms – CS 344 (01:198:344)
+### 8️⃣ Design and Analysis of Computer Algorithms – CS 344 (01:198:344)
 - Focus: Asymptotic analysis, divide and conquer, dynamic programming, greedy algorithms, graph algorithms.
 - Hands-on: Proof-based problem sets written in LaTeX as a three-person group.
 - Folder: [`Algorithms-CS344`](Algorithms-CS344/)

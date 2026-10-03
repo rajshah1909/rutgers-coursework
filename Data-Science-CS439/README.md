@@ -20,3 +20,7 @@ pip install numpy pandas matplotlib seaborn scipy jupyter
 jupyter notebook
 ```
 Open a notebook from its own `HWnn/` folder so the relative data paths resolve.
+
+## 🚫 Not included
+- Quizzes 1–3: graded Canvas assessments.
+- Reading material (third-party papers) and the original lab handouts.
