@@ -1,4 +1,4 @@
-# 🧮 Algorithms – CS 344 (01:198:344), Spring 2026
+# 🧮 Design and Analysis of Computer Algorithms – CS 344 (01:198:344), Spring 2026
 
 Typeset (LaTeX) written solutions to the CS 344 problem sets. Each homework was completed as a group of three; group members other than me are redacted.
 
@@ -12,4 +12,5 @@ Typeset (LaTeX) written solutions to the CS 344 problem sets. Each homework was 
 | `HW05` | Graph algorithms (shortest paths, MST) | `CS344_HW05_solution.pdf` |
 | `HW06`–`HW10` | Not yet released | — |
 
-Assignment handouts are the instructor's and are not included.
+## 🚫 Not included
+- Assignment handouts, lecture slides (Lectures 1–13, 25) and practice problem sets (asymptotics, recurrences, divide and conquer, DP, data structures): instructor material.
