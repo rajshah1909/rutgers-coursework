@@ -1,121 +1,128 @@
 # 🎓 Rutgers University
 
 Hi! I’m Raj Shah, a senior double major in Computer Science and Data Science at Rutgers University.  
-This repository showcases my **coursework and projects** across key data science and computer science courses, highlighting my hands-on experience with Python, R, SQL, Tableau, Power BI, Excel, and Linux environments. These projects demonstrate my skills in **data analysis, data visualization, statistical inference, and software development**.
+This repository showcases my **coursework and projects** across key data science and computer science courses, highlighting my hands-on experience with Python, R, SQL, Tableau, Power BI, Excel, and Linux environments. These projects demonstrate my skills in **data analysis, data visualization, statistical inference, machine learning, and software development**.
 
 ---
 
 ## 🧰 Tools & Skills
 - **Programming & Analysis:** Python (Pandas, NumPy, Matplotlib), R, SQL  
+- **Machine Learning:** scikit-learn, PyTorch, Hugging Face Transformers (DistilBERT)  
 - **Data Visualization:** Tableau (Dashboards, Storytelling), Power BI, Excel (Pivot Tables, Charts)  
 - **Database Management:** MySQL, SQL Server, ER Modeling  
 - **Data Analytics Techniques:** Data cleaning, profiling, descriptive & trend analysis, hypothesis testing, regression analysis, predictive analytics  
+- **Technical Writing:** LaTeX  
 - **Operating Systems:** Windows, Linux, MacOS  
 - **Soft Skills:** Problem-solving, communication, teamwork, data storytelling  
 
 ---
 
+## 🗂️ Course Index
+
+| # | Course | Code | Language / Tools | Folder |
+|---|---|---|---|---|
+| 1 | Data Literacy | 01:198:142 | R | [`Data Literacy`](Data%20Literacy/) |
+| 2 | Statistical Inference for Data Science | STAT 291 | R | [`Statistical Inference for Data Science`](Statistical%20Inference%20for%20Data%20Science/) |
+| 3 | Data Management for Data Science | CS 210 | Python, SQL | [`Data Management for Data Science`](Data%20Management%20for%20Data%20Science/) |
+| 4 | Internet Technology | CS 352 | Python, Linux | [`Internet Technology`](Internet%20Technology/) |
+| 5 | Information Visualization | — | Tableau, Excel | [`Information Visulization`](Information%20Visulization/) |
+| 6 | Regression Methods | 01:960:463 | R | [`Regression-Methods`](Regression-Methods/) |
+| 7 | Machine Learning | 01:198:461 | Python, LaTeX | [`Machine Learning`](Machine%20Learning/) |
+| 8 | Design and Analysis of Computer Algorithms | 01:198:344 | LaTeX | [`Algorithms-CS344`](Algorithms-CS344/) |
+| 9 | Introduction to Data Science | 01:198:439 | Python | [`Data-Science-CS439`](Data-Science-CS439/) |
+| 10 | Applied Statistical Learning | STAT 486 | Python, PyTorch | [`Applied-Statistical-Learning-STAT486`](Applied-Statistical-Learning-STAT486/) |
+
+---
+
 ## 📂 Courses & Projects
 
-### 1️⃣ Data 101 – Data Literacy
-
-- Focus: Building data literacy through weekly “data puzzles,” statistical reasoning, and critical thinking about the role of data in society.
-- Hands-on: Learned the foundations of R programming through homeworks, puzzles, and projects. Applied R to clean, analyze, and visualize datasets.
-- Sample Projects:  
-  -R-based assignments covering descriptive statistics, probability, and data visualization
-  -Weekly “data puzzles” solved and defended in presentations
-  -Final project with real-world, actionable findings
+### 1️⃣ Data Literacy – Data 101 (01:198:142)
+- **Focus:** Building data literacy through weekly “data puzzles,” statistical reasoning, and critical thinking about the role of data in society.
+- **Hands-on:** Learned the foundations of R programming; applied R to clean, analyze, and visualize datasets.
+- **In this folder:** 12 R homework scripts (`hw1.R`–`hw14.R`) covering descriptive statistics, probability, and data visualization.
+- **Folder:** [`Data Literacy`](Data%20Literacy/)
 
 ---
 
-### 2️⃣ STAT291 – Statistical Inference for Data Science
-- Focus: Statistical concepts, hypothesis testing, regression, sampling, bootstrapping, confidence intervals, and applied R coding.  
-- Hands-on: Coding exercises in **R** for descriptive statistics, probability simulations, CI & HT, regression analysis, ANOVA, and Chi-square tests.  
-- Sample Projects:  
-  - Bootstrapping confidence intervals and hypothesis testing  
-  - Regression analysis on real-world datasets (Galton height, GDP, life expectancy)  
-  - Paired samples and proportion tests  
+### 2️⃣ Statistical Inference for Data Science – STAT 291
+- **Focus:** Hypothesis testing, regression, sampling, bootstrapping, and confidence intervals.
+- **Hands-on:** R labs for descriptive statistics, probability simulations, CI & HT, regression analysis, ANOVA, and Chi-square tests.
+- **In this folder:** Lab reports `Lab1`–`Lab6` (PDF, knitted from R).
+- **Folder:** [`Statistical Inference for Data Science`](Statistical%20Inference%20for%20Data%20Science/)
 
 ---
 
-### 3️⃣ CS210 – Data Management for Data Science
-- Focus: Acquiring, cleaning, curating, and exploring datasets using Python and Excel; basic relational and NoSQL database management.  
-- Hands-on: Python coding in **Jupyter Notebook** for data cleaning, exploration, visualization, and analytics.  
-- Sample Projects:  
-  - Cleaning and analyzing CSV/Excel datasets with Pandas and NumPy  
-  - Visualizing data trends using Matplotlib  
-  - SQL queries on curated datasets for analysis  
+### 3️⃣ Data Management for Data Science – CS 210
+- **Focus:** Acquiring, cleaning, curating, and exploring datasets; basic relational and NoSQL database management.
+- **Hands-on:** Python in Jupyter Notebook for data cleaning, exploration, visualization, and SQL queries.
+- **In this folder:** `Hw1.py`, `Hw2.zip`, `Hw3.zip`, `Hw4.pdf`.
+- **Folder:** [`Data Management for Data Science`](Data%20Management%20for%20Data%20Science/)
 
 ---
 
-### 4️⃣ CS352 – Internet Technologies
-- Focus: Understanding Internet protocols, networking architecture, TCP/IP, HTTP, DNS, routing, and network security.  
-- Hands-on: Python-based projects executed in a **Linux environment**, implementing socket programming, TCP/UDP communication, and protocol simulations.  
-- Sample Projects:  
-  - TCP client-server application in Python  
-  - FTP/HTTP file transfer simulations  
-  - DNS query automation  
+### 4️⃣ Internet Technology – CS 352
+- **Focus:** Internet protocols, networking architecture, TCP/IP, HTTP, DNS, routing, and network security.
+- **Hands-on:** Python socket programming in a Linux environment: TCP/UDP communication and protocol simulations.
+- **In this folder:** Written homeworks `HW 1`–`HW 2` (PDF) and projects `PROJ 1`–`PROJ 4` (zipped code).
+- **Folder:** [`Internet Technology`](Internet%20Technology/)
 
 ---
 
 ### 5️⃣ Information Visualization
-- Focus: Designing effective visualizations and dashboards using **Tableau** and **Power BI**, applying human perception principles and storytelling.  
-- Hands-on: Creating dashboards, interactive visualizations, and data stories from real-world datasets.  
-- Sample Projects:  
-  - Broadway Revenue Analysis – interactive Tableau dashboard  
-  - Disney Movie Revenue Analysis – bar, line, and scatter plots with insights  
-  - NYC 311 Resolution Satisfaction – story-driven dashboard with correlations and insights  
-- Principles Applied: Tufte, Berinato, Schwabish  
+- **Focus:** Designing effective visualizations and dashboards, applying human-perception principles (Tufte, Berinato, Schwabish) and data storytelling.
+- **Hands-on:** Tableau dashboards and Excel charts built from real-world datasets.
+- **In this folder:** Tableau workbooks (`.twbx`) for Tech Exercises 1, 2, 3 and 5, the Midterm and the Final Project; the Final Project report; Broadway grosses data (`.xlsx`).
+- **Folder:** [`Information Visulization`](Information%20Visulization/)
 
 ---
 
 ### 6️⃣ Regression Methods – 01:960:463
-- Focus: Understanding and applying regression techniques including simple, multiple, and polynomial regression, logistic regression, and generalized linear models.
-- Hands-on: Built regression models, conducted residual and diagnostic analysis, and performed variable selection using R and SAS.
-- Sample Projects:  
-  - Simple and multiple regression analysis on real-world datasets  
-  - Residual analysis and outlier detection  
-  - Logistic regression and GLM modeling  
-  - Variable selection using stepwise regression, ridge regression, and principal component regression
-  
+- **Focus:** Simple, multiple, and polynomial regression, logistic regression, and generalized linear models.
+- **Hands-on:** Regression models, residual and diagnostic analysis, and variable selection (stepwise, ridge, principal component regression) in R.
+- **In this folder:** `HW01`–`HW11`, each with an R script, its text output, plots, and the dataset.
+- **Folder:** [`Regression-Methods`](Regression-Methods/)
+
 ---
 
 ### 7️⃣ Machine Learning – 01:198:461
-- Focus: Understanding fundamental and advanced machine learning algorithms, feature engineering, model optimization, and neural network training.
-- Hands-on: Implemented algorithms in Python, performed regression, classification, clustering, ensemble learning, SVMs, neural networks, Bayesian networks, and reinforcement learning tasks.
-- Sample Projects:
-  - Regression, classification, and feature engineering exercises
-  - Support Vector Machine and Decision Tree modeling
-  - Neural Network training, backpropagation, and image classification
-  - Bayesian Network inference and EM algorithm
-  - Clustering and Variational Autoencoder projects
-  - Restricted Boltzmann Machine and Reinforcement Learning tasks
+- **Focus:** Probabilistic models, linear models, kernel methods, neural networks, and latent-variable models.
+- **Hands-on:** Python implementations with LaTeX write-ups for each homework.
+- **In this folder:**
+  - `HW1` – MMSE regression, Naive Bayes classifier, data whitening
+  - `HW2` – OLS and ridge regression, PCA eigenfaces, PCA-based regression
+  - `HW3` – Decision trees (entropy), SVMs, spam classification
+  - `HW4` – LeNet-5 on MNIST, including an RBF output layer
+  - `HW5` – EM for Gaussian mixtures, Bayesian networks, Restricted Boltzmann Machines
+- **Folder:** [`Machine Learning`](Machine%20Learning/)
 
 ---
 
 ### 8️⃣ Design and Analysis of Computer Algorithms – CS 344 (01:198:344)
-- Focus: Asymptotic analysis, divide and conquer, dynamic programming, greedy algorithms, graph algorithms.
-- Hands-on: Proof-based problem sets written in LaTeX as a three-person group.
-- Folder: [`Algorithms-CS344`](Algorithms-CS344/)
+- **Focus:** Asymptotic analysis, divide and conquer, dynamic programming, greedy algorithms, and graph algorithms.
+- **Hands-on:** Proof-based problem sets written in LaTeX as a three-person group.
+- **In this folder:** `HW01`–`HW05` solution PDFs; `HW06`–`HW10` reserved for upcoming assignments.
+- **Folder:** [`Algorithms-CS344`](Algorithms-CS344/)
 
 ---
 
 ### 9️⃣ Introduction to Data Science – CS 439 (01:198:439)
-- Focus: Data wrangling, visualization, density estimation, and classification from first principles.
-- Hands-on: Python notebooks covering NumPy/Pandas, Naive Bayes and logistic-regression spam classifiers, and KDE.
-- Folder: [`Data-Science-CS439`](Data-Science-CS439/)
+- **Focus:** Data wrangling, visualization, density estimation, and classification from first principles.
+- **Hands-on:** Python notebooks covering NumPy/Pandas, Naive Bayes and logistic-regression spam classifiers, and KDE.
+- **In this folder:** `HW01`–`HW04` notebooks with their datasets; `HW05`–`HW10` reserved for upcoming assignments.
+- **Folder:** [`Data-Science-CS439`](Data-Science-CS439/)
 
 ---
 
 ### 🔟 Applied Statistical Learning – STAT 486
-- Focus: Bootstrap and Monte Carlo methods, GLMs and regularization, neural networks, and transformer embeddings.
-- Hands-on: scikit-learn and PyTorch notebooks plus written derivations; HW4 compares bag-of-words and DistilBERT features.
-- Folder: [`Applied-Statistical-Learning-STAT486`](Applied-Statistical-Learning-STAT486/)
+- **Focus:** Bootstrap and Monte Carlo methods, GLMs and regularization, neural networks, and transformer embeddings.
+- **Hands-on:** scikit-learn and PyTorch notebooks plus written derivations; HW4 compares bag-of-words and DistilBERT features.
+- **In this folder:** `HW01`–`HW04` notebooks, written solutions, and datasets; `HW05`–`HW10` reserved for upcoming assignments.
+- **Folder:** [`Applied-Statistical-Learning-STAT486`](Applied-Statistical-Learning-STAT486/)
 
 ---
 
 ## 🔗 Highlights
-- Integrates **data analytics, visualization, statistical inference, and software skills** across coursework.  
+- Integrates **data analytics, visualization, statistical inference, machine learning, and software skills** across coursework.  
 - Demonstrates **hands-on experience** with real-world datasets.  
 - Showcases ability to **transform raw data into actionable insights** and clear visual stories.  
 
