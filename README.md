@@ -93,6 +93,27 @@ This repository showcases my **coursework and projects** across key data science
 
 ---
 
+### 8️⃣ Algorithms – CS 344 (01:198:344)
+- Focus: Asymptotic analysis, divide and conquer, dynamic programming, greedy algorithms, graph algorithms.
+- Hands-on: Proof-based problem sets written in LaTeX as a three-person group.
+- Folder: [`Algorithms-CS344`](Algorithms-CS344/)
+
+---
+
+### 9️⃣ Introduction to Data Science – CS 439 (01:198:439)
+- Focus: Data wrangling, visualization, density estimation, and classification from first principles.
+- Hands-on: Python notebooks covering NumPy/Pandas, Naive Bayes and logistic-regression spam classifiers, and KDE.
+- Folder: [`Data-Science-CS439`](Data-Science-CS439/)
+
+---
+
+### 🔟 Applied Statistical Learning – STAT 486
+- Focus: Bootstrap and Monte Carlo methods, GLMs and regularization, neural networks, and transformer embeddings.
+- Hands-on: scikit-learn and PyTorch notebooks plus written derivations; HW4 compares bag-of-words and DistilBERT features.
+- Folder: [`Applied-Statistical-Learning-STAT486`](Applied-Statistical-Learning-STAT486/)
+
+---
+
 ## 🔗 Highlights
 - Integrates **data analytics, visualization, statistical inference, and software skills** across coursework.  
 - Demonstrates **hands-on experience** with real-world datasets.  
