@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# LaTeX build output
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# R session state
+.RData
+.Rhistory
+
+# Large model / data artifacts (GitHub rejects files >100 MB)
+*.pt
+*.pth.tar
+*.pkl
